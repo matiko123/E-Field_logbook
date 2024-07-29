@@ -1,0 +1,31 @@
+@import "fonts.css";
+
+html, body {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+
+    font-family: 'Inter', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, th, button{
+    font-family: 'Metropolis-Bold', sans-serif !important;
+}
+
+.custom-scroll {
+    scrollbar-width: thin;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+select{
+    background-position-x: right 0.4rem;
+}
+
+.ck ul, .ck ol{
+    list-style: revert;
+    margin: revert;
+    padding: revert;
+}
